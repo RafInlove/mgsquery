@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="PT-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../static/style.css">
+    <script src="../static/script.js" defer></script>
+    <title>MGS Query</title>
+</head>
+<body>
+    <header>
+        <div class="banner"></div>
+        <div class="title">
+            <h1>Metal Gear Solid Query</h1>
+        </div>
+    </header>
+
+    <main>
+        </div>
+        {% block codigo %}
+        <div class="box">
+            <div class="photo">
+                <img src="../static/img/boxbanner.jpg" alt="template">
+            </div>
+            <div class="description">
+                <h5 class = "game-title">{nome}</h5>
+                <p class = "year-launch">Lançamento: 2000</p>
+                <p class = "game-desc">Lorem ipsum dolor sit amet consectetur
+                adipisicing elit. Sint, modi ipsa. Unde a sed corrupti
+                vitae reiciendis magnam beatae saepe voluptate eveniet 
+                accusantium cupiditate recusandae blanditiis, aliquam optio.
+                Fugiat, nesciunt.</p>
+                
+                {% endblock %}
+                <form>
+                    <label for="id">
+                        Escolha o numero da sequencia a consultar
+                        <input type="number" id = "input">
+                    </label>
+                </form>
+            </div>
+        </div>
+    </main>
+
+    <footer>
+        <p>
+            Projeto por: Raphael Gomes <br>
+            Inspirado na franquia criada e idealizada por Hideo Kojima <br>
+            <span>Konami &copy;</span>
+
+        </p>
+        <a href="https://rafahub.netlify.app" target="_blank">
+            <img src="../static/img/meicon.jpeg" alt="Rafinha 8bit">
+        </a>
+    </footer>
+</body>
+</html>
