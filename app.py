@@ -5,6 +5,8 @@ app = Flask(__name__)
 with open ("data.json") as data:
     dados = json.load(data)
 
+data.close()
+
 # Rotas
 @app.route('/')
 def home():
@@ -13,11 +15,6 @@ def home():
 @app.route('/games', methods=['GET'])
 def getGames():
     return dados
-
-@app.route('/games/<int:id>', methods=['GET'])
-def getGame(id):
-    for game in dados:
-        if game.get("id") == id:
-            return game
+    
 # Rodando o servidor
 app.run(port=5000,host='localhost',debug=True)
