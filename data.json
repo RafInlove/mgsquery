@@ -1,37 +1,39 @@
-[
-    {
-        "id": "1",
-        "nome": "Metal Gear Solid",
-        "ano": 1998,
-        "sobre": "A história de Metal Gear Solid se passa em 2005, a sudoeste do Alasca no mar de Bering. Ela se foca em Solid Snake, um soldado ex-aposentado que se infiltra numa instalação de eliminação de armas nucleares para neutralizar uma ameaça terrorista da FOXHOUND, uma unidade de forças especiais. Snake deve resgatar dois reféns: o chefe da DARPA e o presidente de uma fabricante de armas, além de enfrentar os terroristas e impedí-los de lançar um ataque nuclear.",
-        "capa": "https://image.api.playstation.com/vulcan/ap/rnd/202310/1312/4cd97ac3a0e8559b3c4e436442b385fe64d58d1c444303a9.jpg"
-    },
-    {
-        "id": "2",
-        "nome": "Metal Gear Solid 2: Sons of Liberty",
-        "ano": 2001,
-        "sobre": "A história gira em torno da Big Shell, uma enorme instalação de limpeza offshore apreendida por um grupo de terroristas que se autodenominam Filhos da Liberdade. Eles exigem um enorme resgate em troca da vida do Presidente dos Estados Unidos e ameaçam destruir as instalações e criar um desastre ambiental cataclísmico se as suas exigências não forem satisfeitas. Os motivos e identidades de muitos dos antagonistas e aliados mudam ao longo do jogo, à medida que os protagonistas descobrem uma conspiração mundial construída por uma poderosa organização conhecida como Patriots.",
-        "capa": "https://cdn.cloudflare.steamstatic.com/steam/apps/2131640/capsule_616x353.jpg?t=1703198452"
-    },
-    {
-        "id": "3",
-        "nome": "Metal Gear Solid 3: Snake Eater",
-        "ano": 2004,
-        "sobre": "Ambientado na Rússia da época da Guerra Fria, a história se centra no agente da unidade FOX Naked Snake, cujas missões são resgatar um fabricador de armas e sabotar uma superarma experimental. Enquanto que os jogos anteriores se passavam em ambiente urbano, Snake Eater adota uma ambientação em uma floresta soviética dos anos 1960, com as armadilhas semi-futurísticas de alta tecnologia dos antigos jogos Metal Gear Solid sendo substituídas pela natureza. Enquanto que o ambiente mudou, o foco de sua jogabilidade ainda permanece no stealth e infiltração, além de também manter o senso de humor autoreferenciado tradicional da série, que quebra a quarta parede. A história de Snake Eater é contada através de numerosas cenas cinematográficas e conversas pelo rádio.",
-        "capa": "https://cdn.cloudflare.steamstatic.com/steam/apps/2131650/capsule_616x353.jpg?t=1703198495"
-    },
-    {
-        "id": "4",
-        "nome": "Metal Gear Solid 4: Guns of the Patriots",
-        "ano": 2008,
-        "sobre": "A história se passa no ano de 2014, cinco anos após os incidentes em Big Shell (Metal Gear Solid 2), e nove anos depois da FOXHOUND ter invadido a ilha de Shadow Moses, local onde Solid Snake foi infectado com um retrovírus chamado FOXDIE. Solid Snake aparece consideravelmente envelhecido devido a sua avançada degeneração celular, estabelecida a partir do processo de clonagem que o criou, tendo agora apenas seis meses de vida.",
-        "capa": "https://ih1.redbubble.net/image.1029278436.0467/flat,750x,075,f-pad,750x1000,f8f8f8.jpg"
-    },
-    {
-        "id": "5",
-        "nome": "Metal Gear Solid V: The Phantom Pain",
-        "ano": 2015,
-        "sobre": "Em 16 de março de 1975, logo após os eventos do Ground Zeroes , Venom Snake entrou em coma. Quando ele finalmente acordou quase nove anos depois, em 26 de fevereiro de 1984, uma enfermeira notou que ele havia acordado e alertou rapidamente um médico que informou Venom Snake sobre sua condição médica e depois disse ao último que ele tinha que sair quando estava sendo procurado. pelas forças inimigas.",
-        "capa": "https://cdn.akamai.steamstatic.com/steam/apps/287700/header.jpg?t=1690416673"
-    }
-]
+{
+    "games" : [
+        {
+            "id": "1",
+            "nome": "Metal Gear Solid",
+            "ano": 1998,
+            "sobre": "A história de Metal Gear Solid se passa em 2005, a sudoeste do Alasca no mar de Bering. Ela se foca em Solid Snake, um soldado ex-aposentado que se infiltra numa instalação de eliminação de armas nucleares para neutralizar uma ameaça terrorista da FOXHOUND, uma unidade de forças especiais. Snake deve resgatar dois reféns: o chefe da DARPA e o presidente de uma fabricante de armas, além de enfrentar os terroristas e impedí-los de lançar um ataque nuclear.",
+            "capa": "https://image.api.playstation.com/vulcan/ap/rnd/202310/1312/4cd97ac3a0e8559b3c4e436442b385fe64d58d1c444303a9.jpg"
+        },
+        {
+            "id": "2",
+            "nome": "Metal Gear Solid 2: Sons of Liberty",
+            "ano": 2001,
+            "sobre": "A história gira em torno da Big Shell, uma enorme instalação de limpeza offshore apreendida por um grupo de terroristas que se autodenominam Filhos da Liberdade. Eles exigem um enorme resgate em troca da vida do Presidente dos Estados Unidos e ameaçam destruir as instalações e criar um desastre ambiental cataclísmico se as suas exigências não forem satisfeitas. Os motivos e identidades de muitos dos antagonistas e aliados mudam ao longo do jogo, à medida que os protagonistas descobrem uma conspiração mundial construída por uma poderosa organização conhecida como Patriots.",
+            "capa": "https://cdn.cloudflare.steamstatic.com/steam/apps/2131640/capsule_616x353.jpg?t=1703198452"
+        },
+        {
+            "id": "3",
+            "nome": "Metal Gear Solid 3: Snake Eater",
+            "ano": 2004,
+            "sobre": "Ambientado na Rússia da época da Guerra Fria, a história se centra no agente da unidade FOX Naked Snake, cujas missões são resgatar um fabricador de armas e sabotar uma superarma experimental. Enquanto que os jogos anteriores se passavam em ambiente urbano, Snake Eater adota uma ambientação em uma floresta soviética dos anos 1960, com as armadilhas semi-futurísticas de alta tecnologia dos antigos jogos Metal Gear Solid sendo substituídas pela natureza. Enquanto que o ambiente mudou, o foco de sua jogabilidade ainda permanece no stealth e infiltração, além de também manter o senso de humor autoreferenciado tradicional da série, que quebra a quarta parede. A história de Snake Eater é contada através de numerosas cenas cinematográficas e conversas pelo rádio.",
+            "capa": "https://cdn.cloudflare.steamstatic.com/steam/apps/2131650/capsule_616x353.jpg?t=1703198495"
+        },
+        {
+            "id": "4",
+            "nome": "Metal Gear Solid 4: Guns of the Patriots",
+            "ano": 2008,
+            "sobre": "A história se passa no ano de 2014, cinco anos após os incidentes em Big Shell (Metal Gear Solid 2), e nove anos depois da FOXHOUND ter invadido a ilha de Shadow Moses, local onde Solid Snake foi infectado com um retrovírus chamado FOXDIE. Solid Snake aparece consideravelmente envelhecido devido a sua avançada degeneração celular, estabelecida a partir do processo de clonagem que o criou, tendo agora apenas seis meses de vida.",
+            "capa": "https://ih1.redbubble.net/image.1029278436.0467/flat,750x,075,f-pad,750x1000,f8f8f8.jpg"
+        },
+        {
+            "id": "5",
+            "nome": "Metal Gear Solid V: The Phantom Pain",
+            "ano": 2015,
+            "sobre": "Em 16 de março de 1975, logo após os eventos do Ground Zeroes , Venom Snake entrou em coma. Quando ele finalmente acordou quase nove anos depois, em 26 de fevereiro de 1984, uma enfermeira notou que ele havia acordado e alertou rapidamente um médico que informou Venom Snake sobre sua condição médica e depois disse ao último que ele tinha que sair quando estava sendo procurado. pelas forças inimigas.",
+            "capa": "https://cdn.akamai.steamstatic.com/steam/apps/287700/header.jpg?t=1690416673"
+        }
+    ]
+}

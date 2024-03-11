@@ -9,7 +9,7 @@ const input = document.querySelector("#input");
     if (input === )
 }*/
 
-fetch("http://localhost:8080/mgsgames")
+fetch("../data.json")
 .then((response) => {
     response.json()
     .then((data) => {
