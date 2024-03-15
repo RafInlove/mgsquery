@@ -84,7 +84,7 @@ main {
 }
 
 
-.box .photo img {
+#photo {
     width: 200px;
 }
 

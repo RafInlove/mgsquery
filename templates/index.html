@@ -18,12 +18,12 @@
     <main>
         </div>
         <div class="box">
-            <div class="photo">
-                <img src="../static/img/boxbanner.jpg" alt="template">
+            <div>
+                <img id = "photo" src="../static/img/boxbanner.jpg" alt="template">
             </div>
             <div class="description">
                 <h5 class = "game-title">Metal Gear Solid</h5>
-                <p class = "year-launch">Lançamento: <span id = "ano">2000</span></p>
+                <p class = "year-launch">Ano: <span id = "ano">2000</span></p>
                 <p class = "game-desc">Lorem ipsum dolor sit amet consectetur
                 adipisicing elit. Sint, modi ipsa. Unde a sed corrupti
                 vitae reiciendis magnam beatae saepe voluptate eveniet 
@@ -34,8 +34,9 @@
                 <form>
                     <label for="input">
                         Escolha o numero da sequencia a consultar
-                        <input type="number" id = "input">
                     </label>
+                        <input type="number" id = "input">
+                        <button onclick="mostrarInfo()" UseSubmitBehaviour="false">Buscar</button>
                 </form>
             </div>
         </div>
