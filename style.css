@@ -1,0 +1,283 @@
+@font-face {
+    font-family: MGS2;
+    src: url(./fonts/METAG___.TTF) format(truetype);
+}
+
+@font-face {
+    font-family: MGS22;
+    src: url(./fonts/MGS2.ttf) format(truetype);
+}
+
+@font-face {
+    font-family: MGS2MENU;
+    src: url(./fonts/Tactical\ Espionage\ Action.ttf) format(truetype);
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Helvetica;
+}
+
+body {
+    background-color: #333;
+    overflow-x: hidden;
+}
+
+.banner {
+    opacity: 50%;
+    background-image: url("./img/banner.JPG");
+    background-size: cover;
+    width: 100%;
+    height: 24rem;
+
+}
+
+.title h1 {
+    font-family: MGS2;
+    letter-spacing: 0.2rem;
+    color: #fdfdfd;
+    font-size: 60px;
+    height: fit-content;
+
+    text-shadow: 10px 10px black;;
+
+    padding: 2rem;
+    position: relative;
+    top: -12rem;
+    right: -7.5rem;
+
+    -webkit-user-select:none;  
+    -moz-user-select:none;     
+    -ms-user-select:none;      
+    user-select:none; 
+}
+
+main {
+    display: flex;
+    flex-direction: row;
+
+}
+
+.box {
+    display: flex;
+    flex-direction: row;
+    width: 70%;
+    align-items: center;
+    justify-content: center;
+    gap: 1.5rem;
+    margin: 0 auto;
+}
+
+.box .description h3, h5, p{
+    font-family: MGS22;
+    font-size: 20px;
+    font-weight: 2px;
+    color: #fdfdfd;
+    text-align: start;
+
+    -webkit-user-select:none;  
+    -moz-user-select:none;     
+    -ms-user-select:none;      
+    user-select:none; 
+}
+
+.game-desc {
+    font-family: helvetica;
+}
+
+#search {
+    width: 100px;
+    height: 25px;
+    border: none;
+    border-radius: 5px;
+    background-color:#fdfdfd;
+}
+
+
+#photo img {
+    width: 350px;
+    height: 300px;
+}
+
+form label {
+    font-family: MGS2MENU;
+    color: #fdfdfd;
+}
+
+form input[type=number] {
+    border: none;
+    border-bottom: 1px solid #fdfdfd;
+    background: none;
+    list-style-type: none;
+    color: #fdfdfd;
+}
+
+input[type=number]::-webkit-inner-spin-button { 
+    -webkit-appearance: none;
+    
+}
+input[type=number] { 
+   -moz-appearance: textfield;
+   appearance: textfield;
+
+}
+
+footer {
+    display: flex;
+    flex-direction: row-reverse;
+    align-items: center;
+    justify-content: center;
+    background-color: #181818;
+
+    margin-top: 10rem;
+}
+
+footer img {
+    margin: 2rem;
+    width: 70px;
+    border-radius: 5px;
+}
+
+@media (max-width: 430px) {
+    body {
+        overflow-x: hidden;
+    }
+
+    .banner {
+        width: 100%;
+    }
+
+    .box {
+        width: 90%;
+    }
+
+    .title h1 {
+        font-family: MGS2;
+        letter-spacing: 0.2rem;
+        color: #fdfdfd;
+        font-size: 40px;
+        height: fit-content;
+    
+        text-shadow: 10px 10px black;;
+    
+        padding: 0;
+        position: relative;
+        top: -12rem;
+        right: -3.5rem;
+    }
+
+    #photo img {
+        width: 250px;
+        height: 200px;
+    }
+
+    .box .description h3, h5, p{
+        font-family: MGS22;
+        font-size: 12px;
+        font-weight: 1px;
+        color: #fdfdfd;
+        text-align: start;
+    }
+
+    .box {
+        flex-direction: column;
+        gap: 1.5rem;
+        text-align: center;
+    }
+
+    .box p {
+        font-size: 18px;
+    }
+    
+}
+
+@media (max-width: 768px) {
+    body {
+        overflow-x: hidden;
+    }
+
+    .box {
+        width: 90%;
+    }
+}
+
+@media (max-width: 380px) {
+    body {
+        overflow-x: hidden;
+    }
+
+    .banner {
+        width: 100%;
+    }
+
+    .box {
+        width: 90%;
+    }
+
+    .title h1 {
+        font-family: MGS2;
+        letter-spacing: 0.2rem;
+        color: #fdfdfd;
+        font-size: 35px;
+        height: fit-content;
+    
+        text-shadow: 10px 10px black;;
+    
+        padding: 0;
+        position: relative;
+        top: -12rem;
+        right: -2.5rem;
+    }
+
+    #photo img {
+        width: 250px;
+        height: 200px;
+    }
+
+    .box .description h3, h5, p{
+        font-family: MGS22;
+        font-size: 12px;
+        font-weight: 1px;
+        color: #fdfdfd;
+        text-align: start;
+    }
+
+    .box {
+        flex-direction: column;
+        gap: 1.5rem;
+        text-align: center;
+    }
+
+    .box p {
+        font-size: 18px;
+    }
+    
+}
+
+@media (max-width: 325px) {
+    .title h1 {
+        font-size: 30px;
+    }
+
+    .box {
+        flex-direction: column;
+        gap: 1.5rem;
+        text-align: center;
+    }
+
+    .box p {
+        font-size: 18px;
+    }
+}
+
+@media (max-width: 768px) {
+    body {
+        overflow-x: hidden;
+    }
+
+    .box {
+        width: 90%;
+    }
+}
